@@ -1,0 +1,9 @@
+Package: consul-server 
+Version: 0.4.1-2
+Section: base
+Priority: optional
+Architecture: amd64
+Depends: adduser
+Maintainer: curtis <curtis@serverascode.com>
+Description: Discovery service 
+ Consul discovery service server

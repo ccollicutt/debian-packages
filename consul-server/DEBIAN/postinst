@@ -1,0 +1,7 @@
+#!/bin/sh
+
+adduser --system consul
+addgroup --system consul
+
+chown -R consul:consul /etc/consul.d
+chown consul:consul /var/lib/consul

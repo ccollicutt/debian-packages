@@ -1,0 +1,2 @@
+*.deb
+consul-server/usr/sbin/*
